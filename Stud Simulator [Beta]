@@ -1,6 +1,6 @@
 repeat task.wait() until game:IsLoaded()
 local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/memejames/elerium-v2-ui-library//main/Library",true))()
-local win = lib:AddWindow("ZeroHub By theloststar0802",{main_color = Color3.fromRGB(41,74,122),min_size = Vector2.new(250,346),can_resize = true}) game:GetService("CoreGui"):FindFirstChild("imgui").Name = "ZeroHub"
+local win = lib:AddWindow("ZeroHub By theloststar0802",{main_color = Color3.fromRGB(41,74,122),min_size = Vector2.new(250,346),can_resize = true})
 local char = game:GetService("Players").LocalPlayer.Character or game:GetService("Players").LocalPlayer.CharacterAdded:Wait()
 local hrp = char:WaitForChild("HumanoidRootPart")
 local hum = char:WaitForChild("Humanoid")
